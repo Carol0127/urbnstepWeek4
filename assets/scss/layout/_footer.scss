@@ -1,4 +1,23 @@
-.footer{
-  background: #69F0AE;
-  font-size: 64px;
+footer {
+  padding: 64px 0px;
+  background-color: var(--Neutral-100);
+}
+.copyrigh {
+  padding-top: 32px;
+  border-top: 1px solid var(--Neutral-300);
+}
+
+@media (max-width: 768px) {
+  footer {
+    padding: 32px 0px;
+    ul {
+      width: 100%;
+    }
+    li {
+      width: 100%;
+    }
+    .nav-logo {
+      padding: 0px;
+    }
+  }
 }

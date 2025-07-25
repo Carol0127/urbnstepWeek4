@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/assets/scss/all.scss" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+    <title>URBENSTEP|首頁</title>
+  </head>
+  <%- include('./layout/header2'); -%>
+
+  <body>
+    <section class="mylike">
+      <div class="container">
+        <div class="row jcc">
+          <div class="col-6 col-md-4">
+            <h3 class="d-flex jcc mb-32 mb-32-sm">
+              <img src="./img/Check.png" alt="" class="mr-16 mr-16-sm" /><span
+                class="fw-700"
+                >我的收藏</span
+              >
+            </h3>
+            <div
+              class="store-time bg-highlight mb-32 mb-32-sm d-flex alic mb-32 mb-32-sm"
+            >
+              <i class="bi bi-truck truck text-highlight mr-12"></i>
+              <p class="text-highlight fw-500">
+                門市營業時間：<br class="br-hidden" />週一至週五 10:00 - 22:00
+              </p>
+            </div>
+            <ul class="like-shoe">
+              <li class="d-flex-no pb-32 border-bottom mb-32 mb-32-sm">
+                <img
+                  src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week2/product.png?raw=true"
+                  alt="product"
+                  class="mr-16 mr-16-sm"
+                />
+                <div class="shoe-content fg-2">
+                  <h5 class="fw-700 mb-8">PLATFORM 404</h5>
+                  <p><span class="text-Neutral-600 mb-8">尺寸</span> 38</p>
+                  <p><span class="text-Neutral-600 mb-8">顏色</span> Navy</p>
+                  <h6 class="fw-700 text-end">NT$2,600</h6>
+                </div>
+              </li>
+              <li class="d-flex-no pb-32 border-bottom mb-32 mb-32-sm">
+                <img
+                  src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week2/product-4.png?raw=true"
+                  alt="product-4"
+                  class="mr-16 mr-16-sm"
+                />
+                <div class="shoe-content fg-2">
+                  <h5 class="fw-700 mb-8">BOOMLOK</h5>
+                  <p><span class="text-Neutral-600 mb-8">尺寸</span> 38</p>
+                  <p><span class="text-Neutral-600 mb-8">顏色</span> White</p>
+                  <h6 class="fw-700 text-end">NT$3,200</h6>
+                </div>
+              </li>
+              <li class="d-flex-no pb-32 border-bottom mb-32 mb-32-sm">
+                <img
+                  src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week2/product-3.png?raw=true"
+                  alt="product-3"
+                  class="mr-16 mr-16-sm"
+                />
+                <div class="shoe-content fg-2">
+                  <h5 class="fw-700 mb-8">MELTY KISS</h5>
+                  <p><span class="text-Neutral-600 mb-8">尺寸</span> 38</p>
+                  <p><span class="text-Neutral-600 mb-8">顏色</span> Violet</p>
+                  <h6 class="fw-700 text-end">NT$4,000</h6>
+                </div>
+              </li>
+            </ul>
+            <div class="store-reverse d-flex jcc mb-64 mb-64-sm">
+              <a href="#" class="btn btn-Neutral-900">立即預約門市試穿</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <%- include('./layout/footer'); -%>
+  </body>
+</html>

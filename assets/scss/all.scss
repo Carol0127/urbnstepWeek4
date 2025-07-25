@@ -1,5 +1,8 @@
-@import './layout/header.scss';
-@import './layout/footer.scss';
-
-
-@import './pages/index.scss';
+@import "./layout/reset";
+@import "./layout/grid";
+@import "./layout/variables.scss";
+@import "./layout/utils";
+@import "./layout/components";
+@import "./layout/style.scss";
+@import "./layout/header.scss";
+@import "./layout/footer.scss";

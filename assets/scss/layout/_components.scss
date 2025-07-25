@@ -1,0 +1,97 @@
+.btn {
+  display: inline-block;
+  padding: 12px 24px;
+  border-radius: 4px;
+}
+
+.btn-lg {
+  text-align: center;
+  width: 259px;
+  display: inline-block;
+  padding: 12px 65.5px;
+  border-radius: 4px;
+}
+
+.btn-xl {
+  width: 295px;
+  text-align: center;
+  display: inline-block;
+  padding: 9px 70px;
+  border-radius: 4px;
+}
+
+.btn-like {
+  font-size: 24px;
+  display: inline-block;
+  padding: 0px 12px;
+}
+
+.btn-Primary-300 {
+  background-color: var(--Primary-300);
+  color: var(--Neutral-900);
+  &:hover {
+    color: var(--Neutral-500);
+  }
+}
+
+.btn-Neutral-900 {
+  background-color: var(--Neutral-900);
+  color: var(--Neutral-0);
+  &:hover {
+    background-color: var(--Neutral-700);
+  }
+}
+
+.btn-line-Neutral-900 {
+  border: 1px solid var(--Neutral-900);
+  &:hover {
+    background-color: var(--Neutral-900);
+    color: var(--Neutral-0);
+  }
+}
+
+.btn-sign-star {
+  width: 50%;
+  text-align: center;
+  padding: 12px;
+  border-bottom: 2px solid var(--Neutral-900);
+}
+
+.btn-sign {
+  width: 50%;
+  text-align: center;
+  padding: 12px;
+  border-bottom: 2px solid var(--Neutral-300);
+}
+
+.btn-size-select {
+  width: 160px;
+  text-align: center;
+  font-weight: 500;
+  border: 1px solid var(--Neutral-900);
+}
+.btn-size-default {
+  width: 160px;
+  text-align: center;
+  font-weight: 500;
+  color: var(--Neutral-900);
+  border: 1px solid var(--Neutral-300);
+  &:hover {
+    border: 1px solid var(--Neutral-600);
+  }
+}
+
+.btn-size-disabled {
+  width: 160px;
+  text-align: center;
+  opacity: 40%;
+  font-weight: 500;
+  color: var(--Neutral-900);
+  border: 1px solid var(--Neutral-300);
+}
+
+.hot {
+  padding: 8px 12px;
+  z-index: 100;
+  position: absolute;
+}
